@@ -2,7 +2,7 @@
 
 Here are some exercises to help you learn about PyGame, the engine we will be using throughout the rest of the semester.
 
-If you are using PyCharm, here is a video that shows you [how to install PyGame](https://www.youtube.com/watch?v=zwY4dzvbBwE) through that IDE. If you want to install it without using PyCharm, there are instruction son the PyGame [Getting Started Wiki](https://www.pygame.org/wiki/GettingStarted).
+If you are using PyCharm, here is a video that shows you [how to install PyGame](https://www.youtube.com/watch?v=zwY4dzvbBwE) through that IDE. If you want to install it without using PyCharm, there are instructions on the PyGame [Getting Started Wiki](https://www.pygame.org/wiki/GettingStarted).
 
 There are four exercise files in this repository. Follow the instructions in each of them to fulfill the exercise. Then commit your changes to your repository and push them back to GitHub.
 
