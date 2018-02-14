@@ -16,10 +16,10 @@ white = (255,255,255)
 def main():
 	pygame.init()
 	screen = pygame.display.set_mode(screen_size)
-	font = pygame.font.SysFont("arial",64)
+	font = pygame.font.SysFont("magneto",64)
 	clock = pygame.time.Clock()
 
-	(x,y) = (100,100)
+	(x,y) = (275,268)
 
 	while True:
 		clock.tick(FPS)
@@ -32,8 +32,8 @@ def main():
 
 		print(datetime.now().time())
 
-		text = "Hello World!"
-		f = font.render(text, True, white)
+		text = str(datetime.now().time())
+		f = font.render(text[:8], True, white)
 		(fwidth,fheight) = font.size(text)
 		screen.blit(f,(x,y))
 		
